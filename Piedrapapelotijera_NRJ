@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-
 int main(){
     int player, computer, again;
     int wins = 0, losses = 0, ties = 0;
@@ -47,5 +42,3 @@ int main(){
         scanf("%d",&again);
 
     }while(again == 1);
-
-}
